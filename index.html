@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AyamKFC - Profil Perusahaan</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #d32f2f;
+            color: white;
+            padding: 20px 0;
+        }
+
+        header nav ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        header nav ul li {
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+            transition: color 0.3s ease;
+        }
+
+        header nav ul li a:hover {
+            color: #ffeb3b;
+        }
+
+        .hero {
+            text-align: center;
+            background-color: #ffeb3b;
+            padding: 50px 20px;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+
+        .cta-btn {
+            padding: 15px 30px;
+            background-color: #d32f2f;
+            color: white;
+            font-size: 1.2em;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .cta-btn:hover {
+            background-color: #b71c1c;
+        }
+
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .section-title {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .section-content {
+            font-size: 1.2em;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header with Navigation Menu -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#products">Produk</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <h1>Selamat datang di AyamKFC!</h1>
+        <p>Kami menyajikan ayam goreng lezat dengan rasa yang tak terlupakan.</p>
+        <button class="cta-btn" onclick="showMessage()">Pelajari Lebih Lanjut</button>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about">
+        <h2 class="section-title">Tentang Kami</h2>
+        <p class="section-content">
+            AyamKFC adalah perusahaan makanan cepat saji yang berdedikasi untuk menyajikan ayam goreng berkualitas tinggi dengan cita rasa yang khas. Dengan berbagai cabang di seluruh dunia, kami berkomitmen untuk memberikan pelayanan terbaik dan cita rasa yang selalu menggugah selera.
+        </p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2 class="section-title">Layanan Kami</h2>
+        <p class="section-content">
+            Kami menawarkan berbagai layanan untuk mempermudah pengalaman Anda, mulai dari pengantaran online hingga layanan catering untuk acara besar. Kami siap memenuhi semua kebutuhan kuliner Anda!
+        </p>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products">
+        <h2 class="section-title">Produk Kami</h2>
+        <p class="section-content">
+            AyamKFC menawarkan berbagai pilihan menu, dari ayam goreng crispy, ayam panggang, hingga menu sampingan seperti kentang goreng dan coleslaw yang selalu menemani setiap hidangan.
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Kontak Kami</h2>
+        <p class="section-content">
+            Untuk informasi lebih lanjut atau pemesanan, Anda dapat menghubungi kami melalui email di <strong>support@ayamkfc.com</strong> atau kunjungi cabang terdekat.
+        </p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 AyamKFC. Semua Hak Dilindungi.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function showMessage() {
+            alert("Terima kasih telah tertarik! Kami akan segera menghubungi Anda.");
+        }
+    </script>
+
+</body>
+</html>
